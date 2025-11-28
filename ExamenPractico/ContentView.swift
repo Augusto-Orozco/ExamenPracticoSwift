@@ -11,15 +11,15 @@ struct ContentView: View {
     @State var ShowVM = ViewModelExam()
     let show : Show
     var body: some View {
-        NavigationStack{
-            VStack {
+        NavigationStack {
+            VStack (spacing: 20){
                 ForEach(ShowVM.arrS){ show in
                     NavigationLink {
                         DetalleShow(show: show)
                     } label: {
                         ShowRow(show: show)
-                        
                     }
+                    Spacer()
                     
                 }
             }

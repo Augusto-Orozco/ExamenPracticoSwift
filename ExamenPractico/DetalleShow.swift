@@ -26,9 +26,18 @@ struct DetalleShow: View {
                 .font(Font.system(size: 30, weight: .semibold))
             Text("Asientos restantes " + show.remainingSeats)
                 .font(Font.system(size: 30, weight: .semibold))
+            
+            NavigationLink {
+                RegistroView()
+            } label: {
+                Text("Registro")
+                    .font(Font.system(size: 30, weight: .semibold))
+                Image(systemName: "cart")
+            }
+                        
+            }
         }
     }
-}
 #Preview {
     DetalleShow(show: Show(id: 1, title: "AI en Ecosistema Apple", category: "Conferencia", symbol: "apple.intelligence", startTime: "11:00 AM", place: "Venture Café", speaker: "Joaquín Ramírez", remainingSeats: "12"))
 }
