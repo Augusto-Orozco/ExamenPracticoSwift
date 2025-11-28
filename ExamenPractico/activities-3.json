@@ -5,8 +5,9 @@
     "category": "Conferencia",
     "symbol": "apple.intelligence",
     "startTime": "11:00 AM",
+    "place": "Venture Café",
     "speaker": "Joaquín Ramírez",
-    "remainingSeats": 12
+    "remainingSeats": "12"
   },
   {
     "id": 2,
@@ -14,8 +15,9 @@
     "category": "Conferencia",
     "symbol": "building.2.fill",
     "startTime": "11:30 AM",
+    "place": "Emprendimiento Gateway",
     "speaker": "Distintas Empresas",
-    "remainingSeats": 8
+    "remainingSeats": "8"
   },
   {
     "id": 3,
@@ -23,8 +25,9 @@
     "category": "Conferencia",
     "symbol": "steeringwheel",
     "startTime": "12:00 PM",
+    "place": "Venture Café",
     "speaker": "Julio Meza",
-    "remainingSeats": 5
+    "remainingSeats": "5"
   },
   {
     "id": 4,
@@ -32,8 +35,9 @@
     "category": "Conferencia",
     "symbol": "graduationcap.fill",
     "startTime": "12:30 PM",
+    "place": "Emprendimiento Gateway",
     "speaker": "Leo González y Leo Corona",
-    "remainingSeats": 3
+    "remainingSeats": "3"
   },
   {
     "id": 5,
@@ -41,7 +45,9 @@
     "category": "Startup Connect",
     "symbol": "fork.knife",
     "startTime": "1:30 PM",
-    "remainingSeats": 2
+    "place": "Venture Café",
+    "speaker": "Unknown",
+    "remainingSeats": "2"
   },
   {
     "id": 6,
@@ -49,7 +55,9 @@
     "category": "Startup Connect",
     "symbol": "sparkles",
     "startTime": "2:00 PM",
-    "remainingSeats": 1
+    "place": "Emprendimiento Gateway",
+    "speaker": "Unknown",
+    "remainingSeats": "1"
   },
   {
     "id": 7,
@@ -58,8 +66,8 @@
     "symbol": "cpu",
     "startTime": "3:30 PM",
     "place": "Venture Café",
-    "tallerista": "Joaquín Ramírez",
-    "remainingSeats": 2
+    "speaker": "Joaquín Ramírez",
+    "remainingSeats": "2"
   },
   {
     "id": 8,
@@ -68,8 +76,8 @@
     "symbol": "apple.logo",
     "startTime": "3:30 PM",
     "place": "Emprendimiento Gateway",
-    "tallerista": "Belong",
-    "remainingSeats": 1
+    "speaker": "Belong",
+    "remainingSeats": "1"
   },
   {
     "id": 9,
@@ -78,8 +86,8 @@
     "symbol": "car.fill",
     "startTime": "4:30 PM",
     "place": "Emprendimiento Gateway",
-    "tallerista": "Julio Meza",
-    "remainingSeats": 3
+    "speaker": "Julio Meza",
+    "remainingSeats": "3"
   },
   {
     "id": 10,
@@ -88,7 +96,7 @@
     "symbol": "swift",
     "startTime": "5:00 PM",
     "place": "Venture Café",
-    "tallerista": "Leo González y Leo Corona",
-    "remainingSeats": 2
+    "speaker": "Leo González y Leo Corona",
+    "remainingSeats": "2"
   }
 ]
